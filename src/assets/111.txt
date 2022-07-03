@@ -1,0 +1,26 @@
+<div class="swapBtn_sm d-flex align-items-center">
+<a href="/starcards" class=""> Mint </a>
+<a href="/view" aria-current="page" class="btn2 router-link-exact-active router-link-active"> View </a>
+</div>
+
+#workingArea .swapBtn_sm {
+    max-width: 175px;
+}
+
+#workingArea .swapBtn a.btn2, #workingArea .swapBtn_sm a.btn2, #workingArea .swapBtn_sm div.btn2 {
+    background: #884af6;
+    background: linear-gradient(to right, #884af6 0%,#cf32f0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#884af6', endColorstr='#cf32f0',GradientType=1 );
+    color: #fff;
+    margin-left: 8px;
+}
+
+#workingArea .swapBtn a, #workingArea .swapBtn_sm a, #workingArea .swapBtn_sm div {
+    display: inline-block;
+    text-decoration: none;
+    color: #abc4ed;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 25px;
+    border-radius: 30px;
+}
